@@ -1,9 +1,4 @@
 const db = require('./connection.js')
-const { getDefaultFlags } = require('mysql2/lib/connection_config')
-
-// db.query('SELECT * FROM groceries', (err, groceries) => {
-//   if (err) {console.log(err)}
-// })
 
 const orm = {}
 
