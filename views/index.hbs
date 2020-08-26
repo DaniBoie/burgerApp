@@ -25,6 +25,8 @@
   </div>
 </div>
 
+<br></br>
+
   <div class="row">
     <div class="col-md-6">
       <ul id="notPurchased" class="list-group">
@@ -37,7 +39,9 @@
           </div>
           <p class="mb-1">Quantity: {{this.quantity}}</p>
           <small>Price: ${{this.cost}}</small>
+          <button class="purchase" id="purchase">Purchase</button>
         </li>
+        
         {{/unless}}
         {{/each}}
       </ul>
@@ -54,6 +58,7 @@
           </div>
           <p class="mb-1">Quantity: {{this.quantity}}</p>
           <small>Price: ${{this.cost}}</small>
+          <button class="remove" id="unpurchase">Remove</button>
         </li>
         {{/if}}
         {{/each}}
