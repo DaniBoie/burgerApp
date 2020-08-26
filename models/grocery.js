@@ -16,7 +16,7 @@ model.updateOne = (updates, where, cb) => {
   orm.update('groceries', updates, where, () => cb())
 }
 
-model.deleteOne = (where) => {
+model.deleteOne = (where, cb) => {
   orm.delete('groceries', where, () => cb())
 }
 
