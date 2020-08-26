@@ -20,18 +20,18 @@
         <label for="cost">Price:</label>
         <input type="number" class="form-control" id="cost">
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary" id="addGrocery">Add Grocery!</button>
     </form>
   </div>
 </div>
 
   <div class="row">
     <div class="col-md-6">
-      <ul id="list-group">
+      <ul id="notPurchased" class="list-group">
         <h2>Not Purchased</h2>
         {{#each groceries}}
         {{#unless this.purchased}}
-        <li href="#" class="list-group-item">
+        <li id="{{this.id}}" class="list-group-item">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">{{this.name}}</h5>
           </div>
@@ -44,11 +44,11 @@
     </div>
 
     <div class="col-md-6">
-      <ul id="list-group">
+      <ul id="purchased" class="list-group">
         <h2>Purchased</h2>
         {{#each groceries}}
         {{#if this.purchased}}
-        <li href="#" class="list-group-item">
+        <li id="{{this.id}}" class="list-group-item">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">{{this.name}}</h5>
           </div>
