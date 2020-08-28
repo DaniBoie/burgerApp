@@ -1,4 +1,4 @@
-INSERT INTO groceries(name, quantity, cost,, purchased)
+INSERT INTO burgers(name, quantity, cost, purchased)
 VALUES('Apple', 25, 2.50, false), 
 ('Pineapple', 30, 5.00, false), 
 ('Milk', 150, 4.60, false), 
