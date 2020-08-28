@@ -1,5 +1,5 @@
 {
-  "name": "groceryApp",
+  "name": "burgerApp",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DaniBoie/groceryApp.git"
+    "url": "git+https://github.com/DaniBoie/burgerApp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DaniBoie/groceryApp/issues"
+    "url": "https://github.com/DaniBoie/burgerApp/issues"
   },
-  "homepage": "https://github.com/DaniBoie/groceryApp#readme",
+  "homepage": "https://github.com/DaniBoie/burgerApp#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0",
